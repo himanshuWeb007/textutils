@@ -51,31 +51,7 @@
   </button>
 </div>
 
-  <div class="container">
-       <form action='/analyze' method='post'> {% csrf_token %}
-          <div class="form-group">
-    <label for="exampleFormControlTextarea1">Enter your text here!</label>
-    <textarea class="form-control" name='text' id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-        <div class="custom-control custom-switch">
-  <input type="checkbox" name="removepunc" class="custom-control-input" id="customSwitch1">
-  <label class="custom-control-label" for="customSwitch1">Remove Punctuations</label>
-        </div>
-        <div class="custom-control custom-switch">
-  <input type="checkbox" name="fullcaps" class="custom-control-input" id="customSwitch2">
-  <label class="custom-control-label" for="customSwitch2">CAPITALIZE EVERYTHING</label>
-        </div>
-        <div class="custom-control custom-switch">
-  <input type="checkbox" name="newlineremover" class="custom-control-input" id="customSwitch3">
-  <label class="custom-control-label" for="customSwitch3">Remove new lines</label>
-        </div>
-      <div class="custom-control custom-switch">
-  <input type="checkbox" name="extraspacremover" class="custom-control-input" id="customSwitch4">
-  <label class="custom-control-label" for="customSwitch4">Remove extra space</label>
-      </div>
-      <button type="submit" class="btn btn-lg btn-dark mt-2"> Analyze Text</button>
-   </form>
-  </div>
+ 
 
 
     <!-- Optional JavaScript -->
