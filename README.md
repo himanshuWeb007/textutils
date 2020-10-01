@@ -1,2 +1,3 @@
-# textutils
-A tool for analyzing text data in Django backends
+# textbenefit
+Django is the best for analyszing text
+
